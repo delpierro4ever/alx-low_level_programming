@@ -3,7 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 /*
- * main - The main function starts here
+ * main - the main entry function of the program
  * Return: always returns 0
  */
 
