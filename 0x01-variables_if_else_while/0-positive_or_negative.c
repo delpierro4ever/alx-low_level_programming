@@ -3,9 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 /*
- * main - main function starts here
+ * main - main function
  * Return: always returns 0
- *
  */
 
 int main(void)
