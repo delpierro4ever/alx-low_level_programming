@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry function for the program
+ * main: Entry function for the program
  * Return: always 0
  */
 
