@@ -3,7 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/*
+/**
  * main - main entry point
  * Return: always 0
  */
