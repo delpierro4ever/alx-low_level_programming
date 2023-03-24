@@ -21,8 +21,8 @@ int main(void)
 				if (i+j != 17)
 				{
 					putchar(',');
+					putchar(' ');
 				}
-				putchar(' ');
 			}
 		}
 	}
