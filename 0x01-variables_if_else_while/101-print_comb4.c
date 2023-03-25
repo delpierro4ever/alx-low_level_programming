@@ -13,17 +13,20 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (k = 2; k < 10; k++)
+		for (j = 1; j < 10; j++)
 		{
-			if (i < j && j < k)
+			for (k = 2; k < 10; k++)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
-				if (i + j + k != 24)
+				if (i < j && j < k)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+					if (i + j + k != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
