@@ -3,7 +3,7 @@
 /**
  * _islower - the main name of the prototype
  *
- * c: parameter to be printed
+ * @c: parameter to be printed
  *
  * Return: returns either zero or one
  */
