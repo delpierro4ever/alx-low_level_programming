@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - function name 
+ * _abs - function name
  *
  * @a: main parameter of function
  *
