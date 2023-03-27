@@ -3,7 +3,6 @@
 /**
  * jack_bauer - Prototype name
  *
- * Return: always zero
  */
 
 void jack_bauer(void)
@@ -24,5 +23,4 @@ void jack_bauer(void)
 					_putchar(k + '0');
 					_putchar(l + '0');
 				}
-	return (0);
 }
