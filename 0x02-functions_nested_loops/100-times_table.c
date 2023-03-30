@@ -24,7 +24,7 @@ void print_times_table(int n)
 
 				if (j != n)
 				{
-					printf("%d, ", k);
+					printf("%d,\t", k);
 				}
 				else
 					printf("%d\n", k);
