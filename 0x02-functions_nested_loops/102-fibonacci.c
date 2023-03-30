@@ -10,8 +10,9 @@ int main(void)
 	int i = 0;
 	int j = 1;
 	int k = 0;
+	int n;
 
-	for (i = 1; i <= 50; i++)
+	for (n = 1; n <= 50; n++)
 	{
 		k = i + j;
 		printf("%d, ", k);
