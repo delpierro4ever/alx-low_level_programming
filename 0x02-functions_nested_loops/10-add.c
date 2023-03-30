@@ -3,6 +3,8 @@
 /**
  * add - main addition function
  *
+ * @i: first parameter
+ * @j: second parameter
  * Return: always zero
  */
 
