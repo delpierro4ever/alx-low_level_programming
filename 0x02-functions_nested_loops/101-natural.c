@@ -2,10 +2,10 @@
 
 /**
  * main - Entry point of program
- * Retrun: always zero
+ * Return: always zero
  */
 
-int main()
+int main(void)
 {
 	int i;
 	int j = 0;
