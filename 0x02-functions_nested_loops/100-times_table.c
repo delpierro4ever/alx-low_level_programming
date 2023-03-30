@@ -20,11 +20,11 @@ void print_times_table(int n)
 		{
 			for (j = 0; j <= n; j++)
 			{
-				k = j*i;
+				k = j * i;
 
 				if (j != n)
 				{
-					printf("%d, ", k);
+					printf("%d,  ", k);
 				}
 				else
 					printf("%d\n", k);
