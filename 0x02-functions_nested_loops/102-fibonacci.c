@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	int i = 0;
-	int j = 1;
-	int k = 0;
+	unsigned long long int i = 0;
+	unsigned long long int j = 1;
+	unsigned long long int k = 0;
 	int n;
 
 	for (n = 1; n <= 50; n++)
 	{
 		k = i + j;
-		printf("%d, ", k);
+		printf("%llu, ", k);
 		i = j;
 		j = k;
 	}
