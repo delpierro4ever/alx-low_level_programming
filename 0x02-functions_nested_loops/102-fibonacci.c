@@ -7,13 +7,16 @@
 
 int main(void)
 {
-	int i;
+	int i = 0;
+	int j = 1;
 	int k = 0;
 
 	for (i = 1; i <= 50; i++)
 	{
-		k = k + i;
+		k = i + j;
 		printf("%d, ", k);
+		i = j;
+		j = k;
 	}
 	printf("\n");
 	return (0);
