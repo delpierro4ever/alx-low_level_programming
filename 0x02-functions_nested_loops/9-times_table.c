@@ -20,11 +20,13 @@ void times_table(void)
 			k = j * i;
 			if (j != 9)
 			{
-				printf("%d", k);
+				_putchar(k / 10 + '0');
+				_putchar(k % 10 + '0');
 				_putchar(' ');
 				_putchar(',');
 			}
-			printf("%d", k);
+			_putchar(k / 10 + '0');
+			_putchar(k % 10 + '0');
 			_putchar('\n');
 		}
 	}
