@@ -9,7 +9,7 @@ int main(void)
 {
 	int a, i = 0, j = 1, k = 0, n;
 
-	for (n = 0; n <= 35; n++)
+	for (n = 0; n <= 50; n++)
 	{
 		k = i + j;
 		if (k % 2 == 0 && k <= 4000000)
